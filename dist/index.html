@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="header">
+      <h2>calculator</h2>
+    <p>using rust and webassembly</p>
+    </div>
+    <div class="calculator-result">3</div>
+    <div class="calculator-container">
+      <input placeholder=".." type="text" class="left-value"></input>
+      <select name="operation" class="calculator-sel">
+        <option value="select">use</option>
+        <option value="-">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+      </select>
+      <input placeholder=".." type="text" class="right-value"></input>
+    </div>
+    <button id="result_value">Calculate</button>
+    <div class="calculator-img">
+      <img src="https://media-public.canva.com/TpDrk/MAEx0hTpDrk/1/t.png" alt="img">
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
